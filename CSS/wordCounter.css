@@ -1,0 +1,97 @@
+body{
+    padding: 0px 100px;
+}
+h1{
+    text-align: left;
+    background-color: #0067B0;
+    padding: 15px;
+    color: white;
+    margin: 0px;
+    border-radius: 2px;
+}
+textarea{
+    width: 99%;
+    border-radius: 3px;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    background-color: #0067B0;
+    color: white;
+    border-radius: 2px;
+
+}
+/* @media only screen and (max-width:650px){
+  h1{
+      font-size: 18px;
+  }
+  p{
+      font-size: 19px;
+  }
+  textarea{
+      width:97.3%;
+  }
+}
+@media only screen and (max-width:450px){
+  h1{
+      font-size: 14px;
+  }
+  p{
+      font-size: 15px;
+  }
+  textarea{
+      width:97.3%;
+  }
+}
+@media only screen and (max-width:400px){
+  h1{
+      font-size: 17px;
+      text-align: center;
+  }
+  p{
+      font-size: 15px;
+      text-align: center;
+  }
+  textarea{
+      width:93.3%;
+  }
+}
+@media only screen and (max-width:350px){
+  h1{
+      font-size: 17px;
+      text-align: left;
+  }
+  p{
+      font-size: 15px;
+      text-align: left;
+  }
+  textarea{
+      width:93.3%;
+  }
+}
+ */
+ @media only screen and (max-width:400px){
+     body{
+         padding: 0px 95px;
+     }
+     textarea{
+        width:95%;
+    }
+ }
+ @media only screen and (max-width:330px){
+     body{
+         padding: 0px 28px;
+     }
+     textarea{
+         width:96.3%;
+     }
+ }
+ @media only screen and (max-width:500px){
+
+     textarea{
+         width:96%;
+     }
+ }
