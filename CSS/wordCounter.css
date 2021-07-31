@@ -1,5 +1,6 @@
 body{
-    padding: 0px 100px;
+    padding: 0px 10%;
+    background-color: #191919;
 }
 h1{
     text-align: left;
@@ -74,24 +75,53 @@ p{
 }
  */
  @media only screen and (max-width:400px){
-     body{
-         padding: 0px 95px;
-     }
      textarea{
         width:95%;
     }
+    body{
+        padding:0px 0%;
+    }
  }
  @media only screen and (max-width:330px){
-     body{
-         padding: 0px 28px;
-     }
      textarea{
          width:96.3%;
      }
+     body{
+        padding:0px 0%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 22px;
+    }
  }
  @media only screen and (max-width:500px){
 
      textarea{
          width:96%;
      }
+     body{
+        padding:0px 0%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 25px;
+    }
  }
+ @media only screen and (max-width:300px){
+    textarea{
+        width:96.3%;
+    }
+    body{
+       padding:0px 0%;
+   }
+   h1{
+       font-size: 20px;
+   }
+   p{
+       font-size: 22px;
+   }
+}
